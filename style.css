@@ -57,7 +57,7 @@ body {
 
 
 .bg-light     { background-color: #ecded6; }
-.bg-white     { background-color: #fcfaf8;}
+.bg-white     { background-color: #faf7f4;}
 .bg-green     { background-color: #9b9b81;}
 .bg-black     { background-color: #282829;  }
 
@@ -193,7 +193,7 @@ footer a:hover {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url('/images/plant.jpg');
+    background-image: url('/images/remote-work.jpg');
 }
 
 .profile-image {
