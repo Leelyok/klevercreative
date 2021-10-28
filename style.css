@@ -38,3 +38,12 @@ h1 {
     font-size: 3rem;
     padding-top: 2%;
 }
+
+header {
+    padding: 1% 5%;
+  }
+  
+.emphasis-button {
+    border: 2px solid;
+    margin-left: 0.5rem;
+  }
