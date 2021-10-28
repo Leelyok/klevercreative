@@ -18,7 +18,7 @@ html {
 body {
     /*padding: 5%;*/
     /*font-family: 'Gruppo', cursive;*/
-    font-family: 'Merriweather', serif;
+    font-family: 'Exo 2', sans-serif;
     color: rgb(120, 120, 120);
     /*display: flex;
     align-items: center;
@@ -58,9 +58,9 @@ body {
 
 .bg-light     { background-color: #ecded6; }
 .bg-green     { background-color: #9b9b81;}
-.bg-dark     { background-color: #a2745c;  }
+.bg-black     { background-color: #282829;  }
 
-.light-text { color: white; } 
+.text-light { color: #fff; } 
 
 
 .left   { text-align: left; }
@@ -85,7 +85,6 @@ body {
 
 h1 {
     font-size: 3rem;
-    font-family: 'Lora', serif;
 }
 
 h2,h3,h4,h5,h6 {
@@ -115,6 +114,7 @@ p:last-child{
 
 a {
     color: inherit;
+    text-decoration: none;
 }
 
 nav a {
@@ -147,6 +147,14 @@ a:hover { color: #a2745c; }
     font-weight: 400;
 }
 
+.text-big {
+    font-size: 4rem;
+}
+
+.text-small {
+    font-size: 0.7rem;
+}
+
 
 
 /* Header & Footer  */
@@ -155,8 +163,18 @@ header {
     padding: 1.5% 4%;
 }
 
+footer h2 {
+    font-family: 'Gruppo', cursive;
+}
+
+
 footer a:hover { 
     color: #d3b4a2; 
+}
+
+.inline a p {
+    display: block;
+    padding: 0.6rem;
 }
 
 /* Icon Grid Section  */
