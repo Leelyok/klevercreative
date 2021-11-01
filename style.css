@@ -168,10 +168,45 @@ footer h2 {
     font-family: 'Gruppo', cursive;
 }
 
+footer {
+    color: rgb(240, 240, 240);
+}
 
 footer a:hover { 
-    color: #d3b4a2; 
+    color: #9d614c; 
 }
+
+
+/*  Mobile Menu Styles  */
+
+.mobile-menu {
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.mobile-menu a {
+    display: block;
+    font-size: 1.2rem;
+    padding: 1rem;
+ }
+ 
+ .hamburger-button {
+    position: relative;
+    z-index: 2;
+    text-align: right;
+ }
+ 
+ .hamburger-button i {
+    font-size: 2.2rem;
+    margin-bottom: 0;
+ }
+
+.hamburger-button.active {
+    color: #9d614c;
+  }
 
 .inline a p {
     display: block;
@@ -302,7 +337,27 @@ form .button {
   }
 
   
+/* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
 
+.show-xs, 
+.show-sm,
+.show-md,
+.mobile-menu {
+	display: none;
+}
+
+/* ------- MD Media Query (64em / 1024px) --------------- */ 
+/* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
+
+@media (max-width: 64em) {
+    .show-md { display: block; }
+    .hide-md { display: none;  }
+    
+    .md-tall-80 {  min-height: 80vh;}
+  
+    body {  border: 2px solid green; padding: 0.5rem;}
+    header h3 { font-size: 10vw;}
+  }
 
 /* SM - max-width in pixels approximately 768px */
 @media(max-width: 48em) {
