@@ -19,7 +19,7 @@ body {
     /*padding: 5%;*/
     /*font-family: 'Gruppo', cursive;*/
     font-family: 'Exo 2', sans-serif;
-    color: rgb(90, 90, 90);
+    color: #2f2f2f;
     /*display: flex;
     align-items: center;
     justify-content: center;
@@ -56,10 +56,10 @@ body {
 .margin-b-2 { margin-bottom: 2rem;}
 
 
-.bg-light     { background-color: #ecded6; }
-.bg-white     { background-color: #faf7f4;}
+.bg-light     { background-color: #f2f2f0; }
+.bg-white     { background-color: #ffffff;}
 .bg-green     { background-color: #9b9b81;}
-.bg-black     { background-color: #282829;  }
+.bg-black     { background-color: #1e1e1e;  }
 
 .text-light { color: #fff; } 
 
@@ -281,6 +281,26 @@ form .button {
     height: 100%; 
 }
 
+.logo {
+    width: 180px;
+}
+
+
+
+
+.fas {
+    font-size: 3rem;
+    padding-top: 2%;
+}
+  
+.emphasis-button {
+    border: 2px solid;
+    margin-left: 0.5rem;
+    padding: 1%;
+    border-radius: 0.6rem;
+  }
+
+  
 
 
 /* SM - max-width in pixels approximately 768px */
@@ -303,21 +323,3 @@ form .button {
 
 }
 
-.logo {
-    width: 180px;
-}
-
-
-
-
-.fas {
-    font-size: 3rem;
-    padding-top: 2%;
-}
-  
-.emphasis-button {
-    border: 2px solid;
-    margin-left: 0.5rem;
-    padding: 1%;
-    border-radius: 0.6rem;
-  }
