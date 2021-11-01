@@ -207,6 +207,7 @@ footer a:hover {
 .bg-plant {
     background-image: url('/images/plant.jpg');
     background-position: 50% 43%;
+    background-size: cover;
 }
 
 .bg-plant-2 {
