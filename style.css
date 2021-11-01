@@ -245,6 +245,12 @@ footer a:hover {
     background-size: cover;
 }
 
+.bg-sand {
+    background-image: url('/images/plant-sand.jpg');
+    background-size: cover;
+    background-position-y: 50%;
+}
+
 .bg-plant-2 {
     background-image: url('/images/plant-2.jpg');
     background-position: 75% 50%;
