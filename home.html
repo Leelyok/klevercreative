@@ -78,7 +78,7 @@ title: Klever Studio
 <section class="bg-light padded projects" id="projects">
     <h2 class="center"> Recent Projects </h2>
 
-    {% for project in site.projects limit: 3 %}
+    {% for project in site.projects limit:3 %}
 
     <div class="grid flex-flip-alternate">
         
@@ -88,7 +88,7 @@ title: Klever Studio
             <a href="{{project.live_url}}" class="button" target="_blank"> Go to site </a>
         </div>
         <div class="col-7_sm-12-middle padded">
-            <img src="{{project.featured_image }}" alt="{{ project.title }}">    
+            <img src="{{project.featured_image}}" alt="{{project.title}}">    
         </div>
 
     </div>
