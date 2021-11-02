@@ -132,11 +132,11 @@ a:hover { color: #a2745c; }
   padding: 0.5rem 1rem;
   display: inline-block;
   font-weight: 400;
-  color: white;
+  color: #9d614c;
 }
 
 .bg-dark .button:hover {
-    color: #d3b4a2;
+    color: #dec4bb;
 }
 
 .subtle { 
