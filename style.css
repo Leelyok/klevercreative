@@ -27,7 +27,9 @@ body {
   }
 
 .parking {
-    background-image: url('/images/email-pattern.png');
+    background-image: url('/images/plant-sand.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 100vh;
 }
   
