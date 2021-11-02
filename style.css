@@ -60,6 +60,7 @@ body {
 .bg-white     { background-color: #ffffff;}
 .bg-green     { background-color: #9b9b81;}
 .bg-black     { background-color: #1e1e1e;  }
+.bg-dark      { background-color: #5a5a4e; }
 
 .text-light { color: #fff; } 
 
@@ -67,6 +68,19 @@ body {
 .left   { text-align: left; }
 .center { text-align: center; }
 .right  { text-align: right; }
+
+.emphasis {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
+    word-spacing: 0.2rem;
+}
+
+.featured {
+    color: #b8806c;
+    font-weight: 700;
+}
 
 .capped-width {
     max-width: 1000px;
@@ -133,9 +147,10 @@ a:hover { color: #a2745c; }
   display: inline-block;
   font-weight: 400;
   color: #9d614c;
+  border-radius: 0.5rem;
 }
 
-.bg-dark .button:hover {
+.button:hover {
     color: #dec4bb;
 }
 
@@ -155,6 +170,11 @@ a:hover { color: #a2745c; }
 
 .text-small {
     font-size: 0.7rem;
+}
+
+.right-arrow {
+    max-width: 2rem;
+    margin-left: 1rem;
 }
 
 
