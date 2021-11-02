@@ -405,6 +405,7 @@ form .button {
         background-image: url('/images/plant-2-light.png');
         background-position: 45% 50%;
     }
+    body {  border: 2px solid blue; padding: 0.5rem;}
 
 }
 
