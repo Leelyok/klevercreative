@@ -388,6 +388,7 @@ form .button {
   
     body {  border: 2px solid green; padding: 0.5rem;}
     header h3 { font-size: 10vw;}
+    h1 { font-size: 2.5rem;}
   }
 
 /* SM - max-width in pixels approximately 768px */
@@ -408,6 +409,11 @@ form .button {
         background-position: 45% 50%;
     }
     body {  border: 2px solid blue; padding: 0.5rem;}
+
+    h1 { font-size: 2rem;}
+    p {  font-size: 0.9rem;}
+
+    .emphasis { font-size: 0.9rem; }
 
 }
 
