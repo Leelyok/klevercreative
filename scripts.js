@@ -30,3 +30,15 @@ lightGallery(document.getElementById('lightgallery-2'), {
     speed: 500,
     download: false
 });
+
+//Typed sentences for us//
+var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 250,
+    backSpeed: 5,
+    
+    loop: true,
+    loopCount: 1,
+    
+    showCursor: false
+  });

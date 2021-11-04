@@ -367,6 +367,17 @@ form .button {
     border-radius: 0.6rem;
   }
 
+  #typed {
+    font-size: 3rem;
+    font-weight: normal;
+    font-family: 'Prata', serif;
+    letter-spacing: 0.3rem;
+  }
+  
+  .typed-cursor {
+    font-size: 2rem;
+  }
+
   
 /* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
 

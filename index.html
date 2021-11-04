@@ -57,18 +57,44 @@
 
         <!----Yandex metrika-->
         <meta name="yandex-verification" content="9aeda71acafb94a9" />
+        
     </head>
 
     <body>
 
         <section class="parking padded center">
+
+        <div id="typed-strings">
             <h1> KLEVER studio</h1>
+        </div>
+        <span id="typed"></span>
+
+        <br>
+
             <i class="fas fa-hand-holding-heart"></i>
             <div class="padded">
                 <h2> Сайт в разработке </h2>
             </div>
         </section>
 
+
+
+          <!-----our custom Javascript file------>
+          <script src="/scripts.js"></script>
+        <!----Typed js-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed('#typed', {
+              stringsElement: '#typed-strings',
+              typeSpeed: 250,
+                backSpeed: 5,
+                
+                loop: true,
+                loopCount: 1,
+                
+                showCursor: false
+            });
+          </script>
     </body> 
 
 </html>
