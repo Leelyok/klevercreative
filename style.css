@@ -273,6 +273,12 @@ footer a:hover {
     background-position-y: -44%;
 }
 
+.bg-geom {
+    background-image: url('/images/abstract-design.jpg');
+    background-size: cover;
+    background-position-y: 24%;
+}
+
 .bg-plant-2 {
     background-image: url('/images/plant-2.jpg');
     background-position: 75% 50%;
