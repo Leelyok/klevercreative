@@ -27,11 +27,11 @@ body {
   }
 
 .parking {
-    background-image: url('/images/fruits-bg.jpg');
+    background-image: url('/images/plant-light.png');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
-    color: #fff;
+    color: rgb(81, 75, 75);
 }
 
   
