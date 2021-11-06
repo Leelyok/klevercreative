@@ -27,16 +27,13 @@ body {
   }
 
 .parking {
-    background-image: url('/images/plant-bg.jpg');
+    background-image: url('/images/fruits-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+    color: #fff;
 }
 
-[data-aos^="fade"][data-aos^="fade"] {
-    opacity: 1;
-    transition-property: opacity,transform;
-}
   
 .tall-50 { min-height: 50vh; }
 .tall-60 { min-height: 60vh; }
