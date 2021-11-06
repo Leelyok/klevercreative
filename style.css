@@ -27,10 +27,15 @@ body {
   }
 
 .parking {
-    background-image: url('/images/plant-sand.jpg');
+    background-image: url('/images/plant-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+}
+
+[data-aos^="fade"][data-aos^="fade"] {
+    opacity: 1;
+    transition-property: opacity,transform;
 }
   
 .tall-50 { min-height: 50vh; }
