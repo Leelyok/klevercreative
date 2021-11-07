@@ -280,6 +280,8 @@ footer a:hover {
     background-position-y: 24%;
 }
 
+.fixed {  background-attachment: fixed; }
+
 .bg-plant-2 {
     background-image: url('/images/plant-2.jpg');
     background-position: 75% 50%;
