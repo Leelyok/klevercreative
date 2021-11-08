@@ -46,7 +46,8 @@ body {
 .tall-90 { min-height: 90vh; }
 
 
-.padded    { padding: 5%;    }
+.padded      { padding: 5%;    }
+.padded-2p   { padding: 2%;    }
 .padded-1  { padding: 1rem;  }
 .padded-2  { padding: 2rem;  }
 .padded-6  { padding: 6rem;  }
@@ -390,6 +391,8 @@ form .button {
   .typed-cursor {
     font-size: 2rem;
   }
+
+
 
   
 /* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
