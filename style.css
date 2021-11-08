@@ -412,8 +412,7 @@ form .button {
     .hide-md { display: none;  }
     
     .md-tall-80 {  min-height: 80vh;}
-  
-    body {  border: 2px solid green; padding: 0.5rem;}
+    
     header h3 { font-size: 10vw;}
     h1 { font-size: 2.5rem;}
   }
@@ -435,7 +434,6 @@ form .button {
         background-image: url('/images/plant-2-light.png');
         background-position: 45% 50%;
     }
-    body {  border: 2px solid blue; padding: 0.5rem;}
 
     h1 { font-size: 2rem;}
     p {  font-size: 0.9rem;}
