@@ -17,7 +17,9 @@ html {
 
 body {
     /*padding: 5%;*/
-    /*font-family: 'Gruppo', cursive;*/
+    /*font-family: 'Gruppo', cursive;
+    font-family: 'Jura', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;*/
     font-family: 'Exo 2', sans-serif;
     color: #343838;
     /*display: flex;
@@ -25,6 +27,8 @@ body {
     justify-content: center;
     */
   }
+
+  
 
 .parking {
     background-image: url('/images/abstract-design.jpg');
@@ -142,7 +146,7 @@ a {
 
 nav a {
     text-decoration: none;
-    padding: 0.5rem;
+    padding: 0.6rem;
 }
 
 a:hover { color: #a2745c; }
@@ -184,7 +188,10 @@ a:hover { color: #a2745c; }
 /* Header & Footer  */
 
 header {
-    padding: 1.5% 4%;
+    padding: 1.5% 0;
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 footer h2 {
@@ -369,7 +376,7 @@ form .button {
 .emphasis-button {
     border: 2px solid;
     margin-left: 0.5rem;
-    padding: 1%;
+    padding: 2%;
     border-radius: 0.6rem;
   }
 
