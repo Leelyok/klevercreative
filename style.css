@@ -455,6 +455,7 @@ form .button {
     color: white;
     border-radius: 5px;
     min-height: 500px;
+    max-width: 95%;
   }
   
   .card:hover {
@@ -516,23 +517,25 @@ form .button {
     .emphasis { font-size: 0.9rem; }
     .text-big { font-size: 2.5rem; }
 
+    .horizontal-scroll {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 7%;
+      }
+      .card img {
+        margin-top: -25%;
+      }
+      .mob-padded-0 {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
 }
 
 @media(max-width: 36em) {
   
-    .horizontal-scroll {
-      overflow-x: auto;
-      flex-wrap: nowrap;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      padding-bottom: 7%;
-    }
-    .card img {
-      margin-top: -25%;
-    }
-    .mob-padded-0 {
-      padding-left: 0;
-      padding-right: 0;
-    }
+   
 }
 
