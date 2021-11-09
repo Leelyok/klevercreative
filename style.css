@@ -48,6 +48,7 @@ body {
 
 .padded      { padding: 5%;    }
 .padded-2p   { padding: 2%;    }
+.padded-05 { padding: 0.5rem;  }
 .padded-1  { padding: 1rem;  }
 .padded-2  { padding: 2rem;  }
 .padded-6  { padding: 6rem;  }
@@ -55,7 +56,7 @@ body {
 
 .padded-t  { padding-top: 5%;     }
 .padded-b  { padding-bottom: 5%;  }
-.padded-l  { padding-left: 5%;    }
+.padded-l  { padding-left: 3%;    }
 .padded-r  { padding-right: 5%;   }
 
 .padded-0 { padding: 0; }
@@ -72,7 +73,13 @@ body {
 .bg-black     { background-color: #1e1e1e;  }
 .bg-dark      { background-color: #5a5a4e; }
 
+.bg-yellow { background-color: #f9ba4e; }
+.bg-blue { background-color: #c6e1e8; }
+.bg-red { background-color: #c86757; }
+
 .text-light { color: #fff; } 
+
+.subtle {    opacity: 0.8;  }
 
 
 .left   { text-align: left; }
@@ -440,6 +447,29 @@ form .button {
     display: block;
    }
 
+   /* Card Styles  */
+
+
+.card {
+    padding-top: 1.5rem;
+    color: white;
+    border-radius: 5px;
+    min-height: 500px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.2),0 10px 10px -5px rgba(0,0,0,.2);
+  }
+  
+  .card h3 {
+    font-size: 1.8rem;
+  }
+  
+  .card img {
+    margin-top: -2.5rem;
+  }
+  
+
 
   
 /* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
@@ -486,5 +516,23 @@ form .button {
     .emphasis { font-size: 0.9rem; }
     .text-big { font-size: 2.5rem; }
 
+}
+
+@media(max-width: 36em) {
+  
+    .horizontal-scroll {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 7%;
+    }
+    .card img {
+      margin-top: -25%;
+    }
+    .mob-padded-0 {
+      padding-left: 0;
+      padding-right: 0;
+    }
 }
 
