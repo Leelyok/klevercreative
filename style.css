@@ -392,6 +392,38 @@ form .button {
     font-size: 2rem;
   }
 
+  /*  styling of landing form mailer*/
+  #mlb2-4972769.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+    max-width: 900px;
+}
+
+/*  dropdown menu*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+   }
+.dropdown-title {
+    padding: 0.25rem 0.5rem;
+    display: inline-block;
+   }
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 1rem;
+    padding: 0.5rem;
+    display: none;
+    background-color: white;
+    z-index: 2;
+    text-align: left;
+    min-width: 10rem;
+   }
+.dropdown:hover .dropdown-content {
+    display: block;
+   }
+.dropdown-content a {
+    display: block;
+   }
 
 
   
