@@ -390,9 +390,9 @@ form .button {
 }
   
 .emphasis-button {
-    border: 2px solid;
+    border: 1px solid;
     margin-left: 0.5rem;
-    padding: 2%;
+    padding: 3%;
     border-radius: 0.6rem;
   }
 
@@ -419,7 +419,7 @@ form .button {
     display: inline-block;
    }
 .dropdown-title {
-    padding: 0.25rem 0.5rem;
+    padding: 0.35rem 0.5rem;
     display: inline-block;
    }
 .dropdown-content {
