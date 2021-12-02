@@ -594,6 +594,7 @@ form .button {
     .hide-md { display: none;  }
     
     .md-tall-80 {  min-height: 80vh;}
+    .md-tall-60 {  min-height: 60vh;}
     
     header h3 { font-size: 10vw;}
     h1 { font-size: 2.5rem;}
