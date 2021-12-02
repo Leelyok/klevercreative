@@ -50,9 +50,11 @@ body {
 .tall-70 { min-height: 70vh; }
 .tall-80 { min-height: 80vh; }
 .tall-90 { min-height: 90vh; }
+.tall-100 { min-height: 100vh; }
 
 
 .padded      { padding: 5%;    }
+.padded10    { padding: 10%;    }
 .padded-2p   { padding: 2%;    }
 .padded-05 { padding: 0.5rem;  }
 .padded-1  { padding: 1rem;  }
@@ -69,6 +71,9 @@ body {
 .padded-b-0 { padding-bottom: 0; }
 .margin-b-0 { margin-bottom: 0; }
 
+.margin      { margin: 1rem; }
+.margin-t-m6 { margin-top: -6rem; }
+
 .margin-b-1 { margin-bottom: 1rem;}
 .margin-b-2 { margin-bottom: 2rem;}
 
@@ -84,6 +89,7 @@ body {
 .bg-red { background-color: #c86757; }
 
 .text-light { color: #fff; } 
+.text-dark {  color: #5e5746;}
 
 .subtle {    opacity: 0.8;  }
 
@@ -122,7 +128,7 @@ body {
 /* Typography */
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: normal;
     font-family: 'Prata', serif;
 }
@@ -165,9 +171,11 @@ nav a {
 
 a:hover { color: #a2745c; }
 
-.block {
-    display: block;
-}
+.border10 { border-radius: 10px;}
+
+.border  { border: 20px solid #fff;}
+
+.block    { display: block;}
 
 .button {
   text-decoration: none;
@@ -181,6 +189,11 @@ a:hover { color: #a2745c; }
 
 .button:hover {
     color: #dec4bb;
+}
+
+.lower {
+    text-transform: lowercase;
+    font-weight: 300;
 }
 
 .subtle { 
@@ -298,6 +311,24 @@ footer a:hover {
     margin: 1rem 0;
 }
 
+.rotated {
+    text-align: right;
+    transform: rotate(270deg) translateX(-500px) translateY(-165px);
+    transform-origin: 50% 50%;
+    font-size: 8rem;
+    letter-spacing: .2rem;
+    color: #1e1e1e;
+    font-family: grandslang-roman,sans-serif;
+    position: fixed;
+}
+
+
+.flex-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* Background Images */
 
@@ -306,7 +337,7 @@ footer a:hover {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url('/images/remote-work.jpg');
+    background-image: url('/images/klever-studio2.jpg');
 }
 
 .profile-image {
@@ -333,6 +364,19 @@ footer a:hover {
     background-image: url('/images/abstract-design.jpg');
     background-size: cover;
     background-position-y: 24%;
+}
+
+.bg-water {
+    background-image: url('/images/klever-studio1.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.bg-seno {
+    background-image: url('/images/klever-studio3.jpg');
+    background-position: 53% 50%;
+
 }
 
 .fixed {  background-attachment: fixed; }
@@ -412,8 +456,6 @@ form .button {
 .logo {
     width: 180px;
 }
-
-
 
 
 .fas {
