@@ -283,8 +283,9 @@ footer a:hover {
     cursor: pointer;
     padding: 1.5rem;
     display: inline-block;
+    font-family: 'Lora', serif;
     font-weight: 200;
-    font-size: 3rem;
+    font-size: 1.2rem;
     line-height: 0.8;
     position: fixed;
     right: 1rem;
@@ -320,7 +321,8 @@ footer a:hover {
     font-size: 8rem;
     letter-spacing: .2rem;
     color: #414141;
-    font-family: grandslang-roman,sans-serif;
+    font-family: 'Lora', serif;
+    font-weight: 400;
     position: fixed;
 }
 
