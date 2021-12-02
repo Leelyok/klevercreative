@@ -259,14 +259,14 @@ footer a:hover {
 
 .mobile-menu {
   display: none; 
-  background-color: #f2f2f0; 
+  background-color: #faf4ed;
   padding: 5%;
   position: fixed; 
   top:0;
   bottom: 0;
   left:0;
   right:0;
-  text-align: center;
+  text-align: left;
   z-index: 3;
 }
 
@@ -275,6 +275,7 @@ footer a:hover {
   color: inherit; 
   padding: 5vh 5%;
   display: block;
+  font-family: 'Lora', serif;
   font-weight: normal;
   font-size: 1.5rem;
  }
@@ -366,6 +367,28 @@ footer a:hover {
   } 
   
 
+  .border-b {
+    border-bottom: 1px solid;
+    padding: 2% 3%;
+    display: inline-block;
+    color: #343838;
+    letter-spacing: .2rem;
+    margin: .4rem .3rem;
+    -webkit-appearance: none;
+    cursor: pointer;
+  }
+
+  
+  .mobile-menu hr {
+    margin-left: 4.1rem;
+  }
+  
+
+hr {
+    border: none;
+    border-bottom: 2px solid;
+    width: 4rem;
+}
 
 /* Background Images */
 
@@ -608,6 +631,8 @@ form .button {
     .bg-overlay-teal::before {
         background-color: rgba(13, 60, 80, 0.9);
       }
+    
+      hr {  border: none;}
   }
 
 /* SM - max-width in pixels approximately 768px */
