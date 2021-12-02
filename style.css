@@ -73,6 +73,7 @@ body {
 
 .margin      { margin: 1rem; }
 .margin-t-m7 { margin-top: -7rem; }
+.margin-t-m1 { margin-top: -1rem; }
 
 .margin-b-1 { margin-bottom: 1rem;}
 .margin-b-2 { margin-bottom: 2rem;}
@@ -81,7 +82,7 @@ body {
 .bg-light     { background-color: #f2f2f0; }
 .bg-white     { background-color: #ffffff;}
 .bg-green     { background-color: #9b9b81;}
-.bg-black     { background-color: #1e1e1e;  }
+.bg-black     { background-color: #414141;  }
 .bg-dark      { background-color: #5a5a4e; }
 
 .bg-yellow { background-color: #f9ba4e; }
@@ -174,6 +175,7 @@ a:hover { color: #a2745c; }
 .border10 { border-radius: 10px;}
 
 .border  { border: 20px solid #fff;}
+.border30  { border: 30px solid #fff;}
 
 .block    { display: block;}
 
@@ -279,7 +281,7 @@ footer a:hover {
  
  .hamburger-button {
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 1.5rem;
     display: inline-block;
     font-weight: 200;
     font-size: 3rem;
@@ -317,7 +319,7 @@ footer a:hover {
     transform-origin: 50% 50%;
     font-size: 8rem;
     letter-spacing: .2rem;
-    color: #1e1e1e;
+    color: #414141;
     font-family: grandslang-roman,sans-serif;
     position: fixed;
 }
@@ -328,6 +330,39 @@ footer a:hover {
     justify-content: center;
     align-items: center;
 }
+
+/*   Advanced CSS    */
+
+.bg-overlay {
+    position: relative;
+  }
+  
+  .bg-overlay::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+      bottom: 0;
+      right: 0;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .bg-overlay > * {
+    position: relative;
+  }
+  
+  
+  .bg-overlay-teal::before {
+    background-color: rgba(137, 132, 90, 0.7);
+  }
+  
+  
+  /* Gradient Overlay  */ 
+  
+  .bg-overlay-gradient::before { 
+    background: linear-gradient(0, rgba(0,0,0,0.5), rgba(0,0,0,0));
+  } 
+  
 
 
 /* Background Images */
@@ -545,7 +580,7 @@ form .button {
 .show-xs, 
 .show-sm,
 .show-md,
-.mobile-menu {
+.hide {
 	display: none;
 }
 
