@@ -598,6 +598,16 @@ form .button {
     
     header h3 { font-size: 10vw;}
     h1 { font-size: 2.5rem;}
+
+    .bg-water {
+        background-image: url('/images/klever-studio6.jpg');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+    }
+    .bg-overlay-teal::before {
+        background-color: rgba(13, 60, 80, 0.9);
+      }
   }
 
 /* SM - max-width in pixels approximately 768px */
