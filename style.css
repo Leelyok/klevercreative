@@ -60,6 +60,7 @@ body {
 .padded-1  { padding: 1rem;  }
 .padded-2  { padding: 2rem;  }
 .padded-6  { padding: 6rem;  }
+.padded-10  { padding: 10rem;  }
 
 
 .padded-t  { padding-top: 5%;     }
@@ -69,6 +70,8 @@ body {
 
 .padded-0 { padding: 0; }
 .padded-b-0 { padding-bottom: 0; }
+.padded-t-0 { padding-top: 0; }
+.padded-l-0  { padding-left: 0;  }
 .margin-b-0 { margin-bottom: 0; }
 
 .margin      { margin: 1rem; }
@@ -105,6 +108,10 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.08rem;
     word-spacing: 0.2rem;
+}
+.emphasis2 {
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 .featured {
@@ -436,7 +443,13 @@ hr {
 .bg-seno {
     background-image: url('/images/klever-studio3.jpg');
     background-position: 53% 50%;
+}
 
+.bg-instinct {
+    background-image: url('/images/instinct-logo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .fixed {  background-attachment: fixed; }
