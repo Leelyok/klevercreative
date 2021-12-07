@@ -715,6 +715,10 @@ form .button {
         font-size: 5rem;
      }
 
+     .bg-mob {
+        min-height: 65vh;
+    }
+
     
   }
 
@@ -744,9 +748,6 @@ form .button {
         min-height: 39vh;
     }
 
-    .bg-mob {
-        min-height: 65vh;
-    }
 
     .margin-10 {  margin: 0;}
 
