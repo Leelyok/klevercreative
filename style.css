@@ -466,9 +466,12 @@ hr.wide {
 }
 
 .bg-seno {
-    background-image: url('/images/klever-studio3.jpg');
+    background-image: url('/images/klever11.jpg');
     background-position: 53% 50%;
+    background-size: cover;
+    min-height: 100vh;
 }
+
 
 .bg-instinct {
     background-image: url('/images/inst-mock1.png');
@@ -739,6 +742,10 @@ form .button {
 
     .bg-instinct1 {
         min-height: 39vh;
+    }
+
+    .bg-mob {
+        min-height: 65vh;
     }
 
     .margin-10 {  margin: 0;}
