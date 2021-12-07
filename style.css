@@ -715,10 +715,9 @@ form .button {
         font-size: 5rem;
      }
 
-     .bg-mob {
-        min-height: 65vh;
-    }
+     .bg-mob {    min-height: 65vh;  }
 
+     .border  { border: 15px solid #f7f4ef; }
     
   }
 
