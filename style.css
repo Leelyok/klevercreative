@@ -32,7 +32,7 @@ body {
   
 
 .parking {
-    background-image: url('/images/abstract-design.jpg');
+    background-image: url('/images/klever-studio1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -231,7 +231,7 @@ a:hover { color: #a2745c; }
     display: inline-block;
     text-align: right;
     text-transform: lowercase;
-    color: #343838;
+    color: #fff;
     font-weight: 300;
     font-size: 1.2rem;
     letter-spacing: .2rem;
@@ -354,8 +354,8 @@ footer a:hover {
     position: absolute;
     top: 0;
     left: 0;
-      bottom: 0;
-      right: 0;
+    bottom: 0;
+    right: 0;
     background-color: rgba(0,0,0,0.5);
   }
   
@@ -374,6 +374,24 @@ footer a:hover {
   .bg-overlay-gradient::before { 
     background: linear-gradient(0, rgba(0,0,0,0.5), rgba(0,0,0,0));
   } 
+
+  .bg-overlay1 {
+    position: relative;
+  }
+  
+  .bg-overlay1::before {
+    content: ""; 
+    position: absolute;
+    top: 4rem;
+    left: 25rem;
+    bottom: 4rem;
+    right: 25rem;
+    background-color: rgba(0,0,0,0.6);
+  }
+  
+  .bg-overlay1 > * {
+    position: relative;
+  }
   
 
   .border-b {
@@ -669,9 +687,21 @@ form .button {
         background-position: center; 
         background-repeat: no-repeat;
     }
+
+    .parking { background-image: url('/images/klever-studio6.jpg'); }
     .bg-overlay-teal::before {
         background-color: rgba(13, 60, 80, 0.9);
     }
+
+    .bg-overlay1::before {
+        content: ""; 
+        position: absolute;
+        top: 5rem;
+        left: 5rem;
+        bottom: 5rem;
+        right: 5rem;
+        background-color: rgba(13, 60, 80, 0.9);
+      }
 
     .padded-10 { padding: 3rem;}
 
@@ -733,10 +763,25 @@ form .button {
         padding-right: 0;
       }
 
+      
+
 }
 
 @media(max-width: 36em) {
-  
+
+    h1 { font-size: 1.3rem;}
+
+    h3 { font-size: 1.1rem;}
+
+    .bg-overlay1::before {
+        content: ""; 
+        position: absolute;
+        top: 5rem;
+        left: 3rem;
+        bottom: 5rem;
+        right: 3rem;
+        background-color: rgba(13, 60, 80, 0.9);
+      }
    
 }
 
