@@ -399,6 +399,11 @@ hr {
     width: 4rem;
 }
 
+hr.wide {
+    width: 8rem;
+    margin: 2rem auto;
+}
+
 /* Background Images */
 
 .bg-image {
@@ -666,9 +671,7 @@ form .button {
     }
     .bg-overlay-teal::before {
         background-color: rgba(13, 60, 80, 0.9);
-      }
-    
-      hr {  border: none;}
+    }
 
     .padded-10 { padding: 3rem;}
 
@@ -707,7 +710,8 @@ form .button {
     .margin-10 {  margin: 0;}
 
     h1 { font-size: 2rem;}
-    h2 { font-size: 1.5rem;}
+    h2 { font-size: 1.4rem;}
+    h3 { font-size: 1.3rem;}
     p {  font-size: 0.9rem;}
 
     .emphasis { font-size: 0.9rem; }
