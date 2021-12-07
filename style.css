@@ -450,6 +450,7 @@ hr {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 .bg-instinct1 {
@@ -681,6 +682,10 @@ form .button {
     .bg-plant-2 {
         background-image: url('/images/plant-2-light.png');
         background-position: 45% 50%;
+    }
+
+    .bg-instinct {
+        min-height: 55vh;
     }
 
     h1 { font-size: 2rem;}
