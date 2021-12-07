@@ -75,6 +75,7 @@ body {
 .margin-b-0 { margin-bottom: 0; }
 
 .margin      { margin: 1rem; }
+.margin-10     { margin: 10%; }
 .margin-t-m7 { margin-top: -7rem; }
 .margin-t-m1 { margin-top: -1rem; }
 
@@ -446,7 +447,7 @@ hr {
 }
 
 .bg-instinct {
-    background-image: url('/images/instinct-logo.jpg');
+    background-image: url('/images/inst-mock1.png');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
