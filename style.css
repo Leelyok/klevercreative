@@ -718,6 +718,8 @@ form .button {
 /* SM - max-width in pixels approximately 768px */
 @media(max-width: 48em) {
 
+    .hide-md { display: none;  }
+
     .center-sm { text-align: center; }
 
     .flex-flip-sm { flex-direction: column-reverse; }
