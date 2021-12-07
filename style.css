@@ -22,6 +22,7 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;*/
     font-family: 'Exo 2', sans-serif;
     color: #343838;
+    background-color: #f7f4ef;
     /*display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +84,7 @@ body {
 .margin-b-2 { margin-bottom: 2rem;}
 
 
-.bg-light     { background-color: #f2f2f0; }
+.bg-light     { background-color: #f7f4ef; }
 .bg-white     { background-color: #ffffff;}
 .bg-green     { background-color: #9b9b81;}
 .bg-black     { background-color: #414141;  }
@@ -182,8 +183,8 @@ a:hover { color: #a2745c; }
 
 .border10 { border-radius: 10px;}
 
-.border  { border: 20px solid #fff;}
-.border30  { border: 30px solid #fff;}
+.border  { border: 20px solid #f7f4ef;}
+.border30  { border: 30px solid #f7f4ef;}
 
 .block    { display: block;}
 
@@ -456,7 +457,10 @@ hr {
 
 .bg-instinct1 {
     background-image: url('/images/about-instinct1.png');
+    background-size: cover; 
     background-position: center; 
+    background-repeat: no-repeat;
+    min-height: 90vh;
 }
 
 .bg-instinct2 {
@@ -667,6 +671,13 @@ form .button {
       hr {  border: none;}
 
     .padded-10 { padding: 3rem;}
+
+    .rotated { 
+        color: #fff;
+        font-size: 5rem;
+     }
+
+    
   }
 
 /* SM - max-width in pixels approximately 768px */
@@ -686,8 +697,14 @@ form .button {
     }
 
     .bg-instinct {
+        min-height: 47vh;
+    }
+
+    .bg-instinct1 {
         min-height: 55vh;
     }
+
+    .margin-10 {  margin: 2%;}
 
     h1 { font-size: 2rem;}
     h2 { font-size: 1.5rem;}
