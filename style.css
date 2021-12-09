@@ -212,9 +212,8 @@ a:hover { color: #a2745c; }
     font-size: 0.9rem;
 }
 
-.text-big {
-    font-size: 4rem;
-}
+.text-big {  font-size: 4rem;}
+.text-bold  { font-weight: bold;}
 
 .text-small {
     font-size: 0.7rem;
