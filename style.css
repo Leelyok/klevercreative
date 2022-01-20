@@ -97,8 +97,6 @@ body {
 .text-light { color: #fff; } 
 .text-dark {  color: #5e5746;}
 
-.subtle {    opacity: 0.8;  }
-
 
 .left   { text-align: left; }
 .center { text-align: center; }
@@ -215,9 +213,7 @@ a:hover { color: #a2745c; }
 .text-big {  font-size: 4rem;}
 .text-bold  { font-weight: bold;}
 
-.text-small {
-    font-size: 0.7rem;
-}
+.text-small {   font-size: 0.7rem;}
 
 .right-arrow {
     max-width: 2rem;
@@ -572,9 +568,7 @@ form .button {
     height: 100%; 
 }
 
-.logo {
-    width: 180px;
-}
+.logo {    width: 180px;}
 
 
 .fas {
