@@ -73,6 +73,8 @@ body {
 .padded-b-0 { padding-bottom: 0; }
 .padded-t-0 { padding-top: 0; }
 .padded-l-0  { padding-left: 0;  }
+.padded-sides { padding: 0 3rem; }
+
 .margin-b-0 { margin-bottom: 0; }
 
 .margin      { margin: 1rem; }
@@ -331,6 +333,20 @@ footer a:hover {
     position: fixed;
 }
 
+.relative {  position: relative; }
+
+.img-product {
+    object-fit: cover;
+    object-position: center;
+    height: 80vh;
+    width: 100%;
+    transition: 1s ease;
+    position: absolute;
+    top: 0;
+  }
+  .hide-2 {
+    opacity: 0;
+  }
 
 .flex-display {
     display: flex;
@@ -501,7 +517,8 @@ hr.wide {
     background-position: 75% 50%;
 }
 .bg-meeting {
-    background-image: url('/images/meeting.jpg');
+    background-image: url('/images/liliia-zolotukhina-webdesigner.jpg');
+    background-position: top;
 }
 .bg-mockup {
     background-image: url('/images/mockup.jpg');
