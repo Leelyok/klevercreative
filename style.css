@@ -186,6 +186,10 @@ a:hover { color: #a2745c; }
 .border  { border: 20px solid #f7f4ef;}
 .border30  { border: 30px solid #f7f4ef;}
 
+.border-left {
+    border-left: 2px solid #000;
+  }
+
 .block    { display: block;}
 
 .button {
@@ -343,10 +347,13 @@ footer a:hover {
     transition: 1s ease;
     position: absolute;
     top: 0;
-  }
-  .hide-2 {
+}
+.hide-2 {
     opacity: 0;
-  }
+}
+.hide-3 {
+    display:none
+}
 
 .flex-display {
     display: flex;
@@ -440,7 +447,6 @@ hr.wide {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    background-image: url('/images/klever-studio2.jpg');
 }
 
 .profile-image {
@@ -514,7 +520,6 @@ hr.wide {
 
 .bg-plant-2 {
     background-image: url('/images/plant-2.jpg');
-    background-position: 75% 50%;
 }
 .bg-meeting {
     background-image: url('/images/liliia-zolotukhina-webdesigner.jpg');
@@ -595,9 +600,22 @@ form .button {
   
 .emphasis-button {
     border: 1px solid;
-    margin-left: 0.5rem;
-    padding: 3%;
-    border-radius: 0.6rem;
+    padding: 1.5% 3%;
+    display: inline-block;
+    text-align: center;
+    /*font-family: grandslang-roman,sans-serif;*/
+    text-transform: lowercase;
+    color: #fff;
+    background-color: #282829;
+    font-weight: 300;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+    margin-top: -3rem;
+    -webkit-appearance: none;
+  }
+
+  .z-10 {
+      z-index: 10;
   }
 
   #typed {
