@@ -380,7 +380,7 @@ footer a:hover {
   }
 
 .banner, .banner-with-header {
-    background-image: url("/images/ona-ipad2.png");
+    background-image: url("/images/klever-mock-pc.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -394,7 +394,7 @@ footer a:hover {
 
 .home-banner .hover-image {
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   position: absolute;
   top: 0;
   left: 0;
@@ -420,7 +420,7 @@ footer a:hover {
 
   .hover-image.fashion,
   .bg-image.fashion {
-    background-image:url('/images/ona-ipad2.png');
+    background-image:url('/images/klever-mock-pc.png');
   }
 
   .hover-image.lifestyle,
@@ -448,7 +448,7 @@ footer a:hover {
 nav.hover-links {
   position: absolute;
   transform: rotate(270deg);
-  left: -11rem;
+  left: -12rem;
   top: 16rem;
   z-index: 3;
 }
