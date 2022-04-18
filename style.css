@@ -92,6 +92,7 @@ body {
 .margin-10     { margin: 10%; }
 .margin-t-m7 { margin-top: -7rem; }
 .margin-t-m1 { margin-top: -1rem; }
+.margin-t-m4 { margin-top: -4rem; }
 
 .margin-b-1 { margin-bottom: 1rem;}
 .margin-b-2 { margin-bottom: 2rem;}
@@ -880,8 +881,10 @@ form .button {
   .card img {
     margin-top: -2.5rem;
   }
-  
-
+ 
+  @media (min-width: 1850px) {
+.margin-b-m31 { margin-bottom: -31rem;}
+}
 
   
 /* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
