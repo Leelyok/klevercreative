@@ -774,6 +774,14 @@ form .button {
     .md-tall-70 {  min-height: 70vh;}
     .md-tall-60 {  min-height: 60vh;}
     
+    .md-padded  { padding: 5%;}
+    .md-padded-t  {
+        padding-top: 5%;
+    }
+
+    .md-padded-1 {
+        padding: 1%;
+    }
 
     .emphasis2 { font-size: 1rem; }
     
@@ -800,6 +808,10 @@ form .button {
         bottom: 5rem;
         right: 5rem;
         background-color: rgba(13, 60, 80, 0.9);
+      }
+    
+      .hover-overlay {
+        padding-bottom: 75%;
       }
 
     .padded-10 { padding: 1rem;}
