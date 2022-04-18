@@ -13,6 +13,7 @@ img { max-width: 100%; }
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -23,6 +24,7 @@ body {
     font-family: 'Merriweather', serif;
     color: #343838;
     background-color: #f7f4ef;
+    overflow-x: hidden;
     /*display: flex;
     align-items: center;
     justify-content: center;
@@ -236,7 +238,7 @@ a:hover { color: #a2745c; }
 
 .text-big {  font-size: 4rem;}
 .text-bold  { font-weight: bold;}
-.text-lg {   font-size: 2.2rem;}
+.text-lg {   font-size: 18pt;}
 .text-sm {   font-size: 0.9rem;}
 
 .right-arrow {
@@ -901,6 +903,7 @@ form .button {
     .md-tall-80 {  min-height: 80vh;}
     .md-tall-70 {  min-height: 70vh;}
     .md-tall-60 {  min-height: 60vh;}
+    .md-tall-55 {  min-height: 55vh;}
     
     .md-padded  { padding: 5%;}
     .md-padded-t  {
@@ -910,6 +913,8 @@ form .button {
     .md-padded-1 {
         padding: 1%;
     }
+
+    .md-margin-t  {  margin-top: 5%;}
 
     .emphasis2 { font-size: 1rem; }
     
@@ -980,7 +985,7 @@ form .button {
     .bg-instinct1 {
         min-height: 39vh;
     }
-
+    .sm-tall-50 {  min-height: 50vh;}
 
     .margin-10 {  margin: 0;}
 
@@ -992,6 +997,9 @@ form .button {
     .emphasis { font-size: 0.9rem; }
     .emphasis2 { font-size: 1rem; }
     .text-big { font-size: 2.5rem; }
+
+    .large-title {
+      font-size: 2.5rem;}
 
     .horizontal-scroll {
         overflow-x: auto;
@@ -1008,8 +1016,10 @@ form .button {
         padding-right: 0;
       }
 
-      
-
+      .md-padded-0 { padding: 0; }
+      .sm-padded-b  {
+        padding-bottom: 5%;
+    }
 }
 
 @media(max-width: 36em) {
