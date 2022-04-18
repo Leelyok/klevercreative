@@ -347,6 +347,120 @@ footer a:hover {
     padding: 0.6rem;
 }
 
+/*  Home Banner */
+
+  /* BANNERS */
+
+  .banner,
+  .banner-with-header {
+    background-image: url('/images/adventure.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .banner .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(	249, 240, 231,.5);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin: 0;
+  }
+
+  .banner-inner {
+    z-index: 2;
+    position: relative;
+  }
+
+  .fixed {
+    background-attachment: fixed;
+  }
+
+.banner, .banner-with-header {
+    background-image: url("/images/ona-ipad2.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+.home-banner .bump-left {
+  position: absolute;
+  left: -50%;
+  width: 50%;
+}
+
+.home-banner .hover-image {
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right: 0;
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.hover-image.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.active {
+  color: #be9a85;
+}
+
+.mob-horizontal-scroll .bg-image {
+    position: relative;
+    padding-bottom: 160%;
+  }
+
+  .hover-image.fashion,
+  .bg-image.fashion {
+    background-image:url('/images/ona-ipad2.png');
+  }
+
+  .hover-image.lifestyle,
+  .bg-image.lifestyle {
+    background-image:url('/images/evd-mock.png');
+  }
+
+  .hover-image.product,
+  .bg-image.product {
+    background-image:url('/images/instinct-ipad2.png');
+  }
+
+  .hover-image.venue,
+  .bg-image.venue {
+    background-image:url('/images/ona-ipad.png');
+  }
+
+  .hover-image.food,
+  .bg-image.food {
+    background-image:url('/images/evd-mock-pc.png');
+  }
+
+/* Home Page Nav Links*/
+
+nav.hover-links {
+  position: absolute;
+  transform: rotate(270deg);
+  left: -11rem;
+  top: 16rem;
+  z-index: 3;
+}
+
+.hover-links a {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.2rem;
+}
+
+
+
 /* Icon Grid Section  */
 .icon-section img {
     max-width: 3rem;
@@ -657,6 +771,20 @@ form .button {
 }
 
 .logo {    width: 180px;}
+
+.home-banner .logo-txt {
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    font-size: 8vw;
+    line-height: 1.1;
+    border-bottom: 3px solid;
+    margin-right: -6rem;
+    padding-right: 8rem;
+    margin-bottom: 10%;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 1rem;
+  }
 
 
 .fas {

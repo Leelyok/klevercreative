@@ -44,8 +44,29 @@ var typed = new Typed('#typed', {
 
   // PORTFOLIO SECTION  //
 
-  $(".p0-button").hover(function(){$(".filterable").addClass("hide-2"),$(".p0").removeClass("hide-2"),$(".filter-grid-button").removeClass("active"),$(".p0-button").addClass("active")}),$(".p1-button").hover(function(){$(".filterable").addClass("hide-2"),$(".p1").removeClass("hide-2"),$(".filter-grid-button").removeClass("active"),$(".p1-button").addClass("active")}),$(".p2-button").hover(function(){$(".filterable").addClass("hide-2"),$(".p2").removeClass("hide-2"),$(".filter-grid-button").removeClass("active"),$(".p2-button").addClass("active")}),$(".p3-button").hover(function(){$(".filterable").addClass("hide-2"),$(".p3").removeClass("hide-2"),$(".filter-grid-button").removeClass("active"),$(".p3-button").addClass("active")}),$(".p4-button").hover(function(){$(".filterable").addClass("hide-2"),$(".p4").removeClass("hide-2"),$(".filter-grid-button").removeClass("active"),$(".p4-button").addClass("active")}),$(".p5-button").hover(function(){$(".filterable").addClass("hide-2"),$(".p5").removeClass("hide-2"),$(".filter-grid-button").removeClass("active"),$(".p5-button").addClass("active")}),$(".p6-button").hover(function(){$(".filterable").addClass("hide-2"),$(".p6").removeClass("hide-2"),$(".filter-grid-button").removeClass("active"),$(".p6-button").addClass("active")});
+  // Homepage hover gallery
 
 
-  
+  $('nav#hover-links a').mouseenter(function(e){
+    e.preventDefault();
+
+    /* make this <li> class active and remove class 'active' from any other <li>s */
+    $('nav#hover-links .active').removeClass('active');
+    $(this).addClass('active');
+
+    /* get the name of the cateory from this link */
+    var filterVal = $(this).text().replace(' ','-').toLowerCase();
+
+    $('.hover-image').each(function() {
+          if(!$(this).hasClass(filterVal)) {
+            $(this).addClass('hidden'); // hide those that don't have the filter
+          }else{
+            $(this).removeClass('hidden'); // show those that do have the filter
+          }
+        });
+
 });
+
+}); // End document ready
+
+
