@@ -125,6 +125,8 @@ body {
     font-weight: 300;
 }
 
+.upper { text-transform: uppercase;  }
+
 .featured {
     color: #b8806c;
     font-weight: 700;
@@ -170,7 +172,7 @@ p  {
  font-weight: 300;   
  line-height: 1.4;
  margin-bottom: 0.8rem;
- font-size: 1rem;
+ font-size: 13pt;
 }
 
 
@@ -181,11 +183,13 @@ p:last-child{
 a {
     color: inherit;
     text-decoration: none;
+    transition: all 1s;
 }
 
 nav a {
     text-decoration: none;
     padding: 0.6rem;
+    transition: all 1s;
 }
 
 a:hover { color: #a2745c; }
@@ -227,8 +231,8 @@ a:hover { color: #a2745c; }
 
 .text-big {  font-size: 4rem;}
 .text-bold  { font-weight: bold;}
-
-.text-small {   font-size: 0.9rem;}
+.text-lg {   font-size: 2.2rem;}
+.text-sm {   font-size: 0.9rem;}
 
 .right-arrow {
     max-width: 2rem;
@@ -241,7 +245,7 @@ a:hover { color: #a2745c; }
   }
 
 .large-title {
-    font-size: 2.8rem;
+    font-size: 3.5rem;
     font-style: italic;
     font-weight: 300;
 }
@@ -297,7 +301,7 @@ footer a:hover {
   left:0;
   right:0;
   text-align: left;
-  z-index: 3;
+  z-index: 13;
 }
 
 .mobile-menu a {
@@ -321,7 +325,7 @@ footer a:hover {
     position: fixed;
     right: 1rem;
     top: 0rem;
-    z-index: 4;
+    z-index: 15;
  }
  
  .hamburger-button i {
@@ -440,7 +444,7 @@ footer a:hover {
   
   .hover-overlay {
     position: relative;
-    padding-bottom: 135%;
+    padding-bottom: 125%;
     color: rgba(255, 255, 255, 0);
     position: relative;
     /* you only need to use relative + absolute if you want to determine the exact aspect ratio of the container */
