@@ -449,7 +449,7 @@ footer a:hover {
   
   .hover-overlay {
     position: relative;
-    padding-bottom: 125%;
+    padding-bottom: 115%;
     color: rgba(255, 255, 255, 0);
     position: relative;
     /* you only need to use relative + absolute if you want to determine the exact aspect ratio of the container */
