@@ -53,6 +53,9 @@ body {
 .tall-90 { min-height: 90vh; }
 .tall-100 { min-height: 100vh; }
 
+[class*="col"] {
+    padding: 0;
+  }
 
 .padded      { padding: 5%;    }
 .padded10    { padding: 10%;    }
@@ -238,7 +241,7 @@ a:hover { color: #a2745c; }
   }
 
 .large-title {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-style: italic;
     font-weight: 300;
 }
@@ -461,6 +464,11 @@ footer a:hover {
     margin-bottom: 0;
   }
     
+  .border-all {
+    border: 1px solid black;
+  }
+
+
   .border-b {
     border-bottom: 1px solid;
     padding: 2% 3%;
