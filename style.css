@@ -240,7 +240,7 @@ a:hover { color: #a2745c; }
 .text-big {  font-size: 4rem;}
 .text-bold  { font-weight: bold;}
 .text-lg {   font-size: 18pt;}
-.text-sm {   font-size: 0.9rem;}
+.text-sm {   font-size: 0.6rem;}
 
 .right-arrow {
     max-width: 2rem;
