@@ -1004,7 +1004,11 @@ form .button {
      .bg-mob {    min-height: 65vh;  }
 
      .border  { border: 15px solid #f7f4ef; }
-    
+     .bg-instinct {   min-height: 50vh;   }
+     .bg-evdokimova {   min-height: 50vh;   }
+     .bg-evdokimova2 {   min-height: 50vh;   }
+     .bg-ona {   min-height: 50vh;   }
+     .bg-ona2 {   min-height: 50vh;   }
   }
 
 /* SM - max-width in pixels approximately 768px */
@@ -1067,6 +1071,8 @@ form .button {
       .sm-padded-b  {
         padding-bottom: 5%;
     }
+
+    .mob-left {  text-align: left;  }
 }
 
 @media(max-width: 36em) {
