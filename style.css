@@ -722,6 +722,23 @@ hr.wide {
   min-height: 90vh;
 }
 
+.bg-ona {
+  background-image: url('/images/ona-ipad.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  padding-bottom: 70%;
+}
+
+.bg-ona2 {
+  background-image: url('/images/ona-ipad3.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  min-height: 90vh;
+}
+
 .fixed {  background-attachment: fixed; }
 
 .bg-plant-2 {
