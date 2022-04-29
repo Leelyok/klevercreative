@@ -666,7 +666,7 @@ hr.wide {
 }
 
 .bg-seno {
-    background-image: url('/images/klever-studio3.jpg');
+    background-image: url('/images/zolotukhina-webdesign.jpg');
     background-position: 53% 50%;
     background-size: cover;
     min-height: 100vh;
@@ -703,6 +703,10 @@ hr.wide {
 
 .bg-plant-2 {
     background-image: url('/images/plant-2.jpg');
+}
+
+.bg-liliia {
+  background-image: url('/images/zolotukhina-webdesigner.jpg');
 }
 .bg-meeting {
     background-image: url('/images/liliia-zolotukhina-webdesigner.jpg');
