@@ -747,6 +747,10 @@ hr.wide {
 
 .bg-liliia {
   background-image: url('/images/zolotukhina-webdesigner.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  min-height: 60vh;
 }
 .bg-meeting {
     background-image: url('/images/liliia-zolotukhina-webdesigner.jpg');
@@ -1009,6 +1013,7 @@ form .button {
      .bg-evdokimova2 {   min-height: 50vh;   }
      .bg-ona {   min-height: 50vh;   }
      .bg-ona2 {   min-height: 50vh;   }
+     .bg-liliia {   min-height: 40vh;    }
   }
 
 /* SM - max-width in pixels approximately 768px */
