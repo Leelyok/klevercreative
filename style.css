@@ -303,6 +303,99 @@ footer a:hover {
     color: #9d614c; 
 }
 
+/*  BURGER MENU   */
+.burger-button {
+  position:fixed;
+  top: 3vh;
+  right: 2vh;
+  z-index: 20;
+  padding: 8px;
+}
+/*this is where you can chand the color of the buttons*/
+.burger-button span{
+  width: 40px;
+  border: 1px solid black;
+  background-color: black;
+  display: block;
+  border-radius: 22px;
+  transition: 2s;
+  z-index: 20;
+}
+.burger-button.active span{
+  border-color: black;
+  background-color:black;
+}
+
+.burger-top, .burger-bottom{
+  position: absolute;
+}
+
+.burger-top{
+  top: -02px;
+}
+
+.burger-bottom{
+  bottom: -02px;
+}
+/* make sure this has the same top as the burger button has padding*/
+.burger-button.active .burger-top{
+  position: absolute;
+  top: 8px;
+  transform: rotateZ(45deg);
+}
+
+.burger-button.active .burger-middle{
+  transform: rotateZ(270deg);
+  border-color: rgba(0,0,0,0);
+  background-color:rgba(0,0,0,0);
+}
+
+/* make sure this has the same bottom as the burger button has padding*/
+
+.burger-button.active .burger-bottom{
+  position: absolute;
+  bottom: 8px;
+  transform: rotateZ(-45deg);
+}
+
+.burger-menu {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left:100vw;
+  right: 0vw;
+  bottom: 0;
+  background-color: #f2f2f2;
+  color: #000;
+  padding:5px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  z-index: 15;
+  transition:1s;
+  align-content:space-around;
+  justify-content:space-around;
+  flex-direction:column;
+}
+.burger-menu.active{
+left:1100px;
+right:0;
+}
+
+.burger-menu a {
+text-decoration: none;
+font-size: 20px;
+font-weight: 200;
+letter-spacing: 0.1rem;
+display:block;
+padding:5px 15px;
+text-align:center;
+white-space:nowrap;
+}
+
+.burger-menu a:hover {
+color: black
+}
+/*   FINISH BURGER MENU   */
+
 
 /*  Mobile Menu Styles  */
 
@@ -420,7 +513,7 @@ footer a:hover {
 }
 
 .active {
-  color: #be9a85;
+  color: #0f0f0f;
 }
 
 .mob-horizontal-scroll .bg-image {
@@ -964,14 +1057,13 @@ form .button {
     .md-padded-1 {
         padding: 1%;
     }
-
     .md-margin-t  {  margin-top: 5%;}
 
     .emphasis2 { font-size: 1rem; }
     
     header h3 { font-size: 10vw;}
     h1 { font-size: 2.5rem;}
-
+    .burger-menu.active{    left:0;    }
     .bg-water {
         background-image: url('/images/klever-studio6.jpg');
         background-size: cover; 
