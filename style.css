@@ -21,7 +21,7 @@ body {
     /*font-family: 'Gruppo', cursive;
     font-family: 'Jura', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;*/
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
     color: #343838;
     background-color: #f7f4ef;
     overflow-x: hidden;
@@ -451,7 +451,7 @@ footer a:hover {
 nav.hover-links {
   position: absolute;
   transform: rotate(270deg);
-  left: -12rem;
+  left: -12.2rem;
   top: 16rem;
   z-index: 3;
 }
