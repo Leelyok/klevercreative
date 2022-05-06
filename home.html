@@ -1,6 +1,19 @@
 ---
 layout: default
 title: Klever Studio Web Design
+portfolio: 
+ - heading: ONA BEAUTY HUB
+   image: /images/ona-ipad.png
+   description: Многостраничный корпоративный сайт салона красоты с персонализированным дизайном. Дополнительная навигация между страницами позволяет в 1-2 клика оказаться на целевой странице нужной услуги. Комбинаторика размещения обширного прайс-листа позволила представить на сайте абсолютно все услуги с их детализацией.
+   link: /work/ona-beauty-hub
+ - heading: Stylist-Evdokimova
+   image: /images/evd-mock-pc.png
+   description: Разработан дизайн сайта стилиста и трендвотчера. Цель - передать уникальность в работе, профессионализм и открытость. Нестандартное расположение меню оказалось оправданным риском. Красочное портфолио раскрывает творческий потенциал Марии и индивидуальный подход к каждому клиенту.
+   link: /work/stylist-evdokimova
+ - heading: Instinct Yoga Studio
+   image: /images/instinct-mock-pc.jpg
+   description: Персонализированный вебсайт для онлайн йога студии. Цель - создание онлайн-пространства и членской платформы для клиентов студии. Монохромный и лаконичный дизайн с использованием свободного пространства, четкой типографики, hand-made изображений, а также настраиваемая графика для лучшего восприятия информации.
+   link: /work/instinct-yoga-studio
 ---
 
 
@@ -144,21 +157,23 @@ title: Klever Studio Web Design
               
 <section class="padded centered padded-t-0 relative z-10">
     <div class="grid padded-1 z-10" data-aos="fade-up">
+
+        {% for item in page.portfolio %}
         <div class="col-4_md-12 grid">
             <div class="col-12 left bg-light">
-                <h3 class="margin-t1 margin-b1"> ONA BEAUTY HUB</h3>
+                <h3 class="margin-t1 margin-b1 upper"> {{item.heading}} </h3>
             </div>
             <div class="col-12 grid border-all">
-                <div class="col-12 relavive hover-container" style="background-image:url('/images/ona-ipad.png')">
+                <div class="col-12 relavive hover-container" style="background-image:url('{{item.image}}')">
                     <div class="col-12 hover-overlay">
                       <div class="col-12-middle left hover-inner center">
-                        <p class="padded left"> Многостраничный корпоративный сайт салона красоты с персонализированным дизайном. Дополнительная навигация между страницами позволяет в 1-2 клика оказаться на целевой странице нужной услуги. Комбинаторика размещения обширного прайс-листа позволила представить на сайте абсолютно все услуги с их детализацией.</p>
+                        <p class="padded left"> {{item.description}} </p>
                       </div>
                     </div>
                   </div>
                   <div class="col-8 padded-1p flex-display bg-light">
                       <h4>
-                          <a class="text-lg" href="/work/ona-beauty-hub"> Подробнее</a>
+                          <a class="text-lg" href="{{item.link}}"> Подробнее</a>
                       </h4>
                   </div>
                   <div class="col-4 flex-display bg-light">
@@ -166,50 +181,8 @@ title: Klever Studio Web Design
                   </div>
             </div>
         </div>
-        <div class="col-4_md-12 grid">
-            <div class="col-12 left md-padded-t">
-                <h3 class="margin-t1 margin-b1 upper"> Stylist-Evdokimova</h3>
-            </div>
-            <div class="col-12 grid border-all">
-                <div class="col-12 relavive hover-container" style="background-image:url('/images/evd-mock-pc.png')">
-                    <div class="col-12 hover-overlay">
-                      <div class="col-12-middle left hover-inner center">
-                        <p class="padded left"> Разработан дизайн сайта стилиста и трендвотчера. Цель - передать уникальность в работе, профессионализм и открытость. Нестандартное расположение меню оказалось оправданным риском. Красочное портфолио раскрывает творческий потенциал Марии и индивидуальный подход к каждому клиенту.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-8 padded-1p flex-display">
-                      <h4>
-                          <a class="text-lg" href="/work/stylist-evdokimova"> Подробнее</a>
-                      </h4>
-                  </div>
-                  <div class="col-4 flex-display">
-                      <p class="large-title"> + </p>
-                  </div>
-            </div>
-          </div>
-          <div class="col-4_md-12 grid">
-            <div class="col-12 left md-padded-t">
-                <h3 class="margin-t1 margin-b1 upper"> Instinct Yoga Studio</h3>
-            </div>
-            <div class="col-12 grid border-all">
-                <div class="col-12 relavive hover-container" style="background-image:url('/images/instinct-mock-pc.jpg')">
-                    <div class="col-12 hover-overlay">
-                      <div class="col-12-middle left hover-inner center">
-                        <p class="padded left"> Персонализированный вебсайт для онлайн йога студии. Цель - создание онлайн-пространства и членской платформы для клиентов студии. Монохромный и лаконичный дизайн с использованием свободного пространства, четкой типографики, hand-made изображений, а также настраиваемая графика для лучшего восприятия информации.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-8 padded-1p flex-display">
-                      <h4>
-                          <a class="text-lg" href="/work/instinct-yoga-studio"> Подробнее</a>
-                      </h4>
-                  </div>
-                  <div class="col-4 flex-display">
-                      <p class="large-title"> + </p>
-                  </div>
-            </div>
-          </div>
+        {% endfor %}
+
     </div>
 </section>  
 
@@ -306,13 +279,6 @@ title: Klever Studio Web Design
     </div>
 </section> 
 -------------------------------->
-
-<!------Сотрудничество--
-<section class="padded-2 bg-dark center text-light grid-middle-center mob-padded-0"> 
-    <p class="margin-b-0 emphasis"> Узнать больше о <span class="featured">сотрудничестве</span> </p>
-    <img src="/images/right-arrow.svg" class="right-arrow">
-</section>
----------------------->
 
 <!-------Contacts -->
 <section class="padded hide-md"></section>
