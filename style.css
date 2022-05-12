@@ -482,7 +482,7 @@ color: black
   }
 
 .banner, .banner-with-header {
-    background-image: url("/images/klever-mock-pc.png");
+    background-image: url("/images/klever-mock-pc.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -522,27 +522,27 @@ color: black
 
   .hover-image.fashion,
   .bg-image.fashion {
-    background-image:url('/images/klever-mock-pc.png');
+    background-image:url('/images/klever-mock-pc.jpg');
   }
 
   .hover-image.lifestyle,
   .bg-image.lifestyle {
-    background-image:url('/images/evd-mock.png');
+    background-image:url('/images/evd-mock.jpg');
   }
 
   .hover-image.product,
   .bg-image.product {
-    background-image:url('/images/instinct-ipad2.png');
+    background-image:url('/images/instinct-ipad2.jpg');
   }
 
   .hover-image.venue,
   .bg-image.venue {
-    background-image:url('/images/ona-ipad.png');
+    background-image:url('/images/ona-ipad.jpg');
   }
 
   .hover-image.food,
   .bg-image.food {
-    background-image:url('/images/evd-mock-pc.png');
+    background-image:url('/images/evd-mock-pc.jpg');
   }
 
 /* Home Page Nav Links*/
@@ -773,7 +773,7 @@ hr.wide {
 
 
 .bg-instinct {
-    background-image: url('/images/inst-mock1.png');
+    background-image: url('/images/inst-mock1.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -799,7 +799,7 @@ hr.wide {
 }
 
 .bg-evdokimova {
-    background-image: url('/images/evd-mock-pc.png');
+    background-image: url('/images/evd-mock-pc.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -807,7 +807,7 @@ hr.wide {
 }
 
 .bg-evdokimova2 {
-  background-image: url('/images/evd-mock.png');
+  background-image: url('/images/evd-mock.jpg');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -815,7 +815,7 @@ hr.wide {
 }
 
 .bg-ona {
-  background-image: url('/images/ona-ipad.png');
+  background-image: url('/images/ona-ipad.jpg');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -824,7 +824,7 @@ hr.wide {
 }
 
 .bg-ona2 {
-  background-image: url('/images/ona-ipad3.png');
+  background-image: url('/images/ona-ipad3.jpg');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
