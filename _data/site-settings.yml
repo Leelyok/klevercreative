@@ -1,23 +1,27 @@
-seo: 
+seo:
   site_name: Klever Studio Web Design
   title: Klever Studio - веб дизайн и веб разработка
-  description: 
-  keywords: 
-  social_image: 
-  author: 
-  favicon_image: 
-social: 
-  instagram_username:
+  description: >-
+    Студия веб дизайна и веб разработки. Создание сайтов максимально
+    адаптировано под голос вашего бренда. Каждый проект уникален.
+  keywords: >-
+    веб дизайн, веб разработка, сайты под ключ, лендинг страницы, seo
+    продвижение, чистый код, кроссбраузерность, адаптивный интерфейс
+  social_image:
+  author:
+  favicon_image:
+social:
+  instagram_username: leelyok
   facebook_url:
-  twitter_username: 
-design: 
-  dark-text_color: 'rgb(60,60,65)'
-  medium-text_color: 'rgb(90,90,95)'
+  twitter_username:
+design:
+  dark-text_color: '#3c3c41'
+  medium-text_color: '#5a5a5f'
   light-text_color: '#f7f5f3'
-  featured-text_color: 'red'
-  dark_color: 'rgb(60,60,65)'
+  featured-text_color: '#ff0000'
+  dark_color: '#3c3c41'
   medium_color: '#ede8e4'
   light_color: '#f7f5f3'
   v-light_color: '#f9f9f9'
   featured_color: '#6495ed'
-  accent_color: 'rgb(167, 74, 74)'
+  accent_color: '#a74a4a'
