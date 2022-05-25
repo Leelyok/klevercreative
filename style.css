@@ -22,8 +22,8 @@ body {
     font-family: 'Jura', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
-    color: #343838;
-    background-color: #f7f4ef;
+    color: var(--dark-text);
+    background-color: var(--light);
     overflow-x: hidden;
     /*display: flex;
     align-items: center;
@@ -104,7 +104,7 @@ body {
 .margin-b-2 { margin-bottom: 2rem;}
 
 
-.bg-light     { background-color: #f7f4ef; }
+.bg-light     { background-color: var(--light);}
 .bg-white     { background-color: #ffffff;}
 .bg-green     { background-color: #9b9b81;}
 .bg-black     { background-color: #414141;  }
@@ -207,7 +207,7 @@ nav a {
     transition: all 1s;
 }
 
-a:hover { color: #a2745c; }
+a:hover { color: var(--accent); }
 
 .border10 { border-radius: 10px;}
 
