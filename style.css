@@ -746,6 +746,14 @@ nav.hover-links {
   .hover-inner {
     position: absolute;
     width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .text-inner {
+    position: absolute;
+    width: 100%;
     top: 90%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
