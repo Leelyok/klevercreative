@@ -1137,7 +1137,23 @@ form .button {
     
     header h3 { font-size: 10vw;}
     h1 { font-size: 2.5rem;}
+
+    .card2 h3 {
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+    }
+
     .burger-menu.active{    left:0;    }
+
+    .horizontal-scroll {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 7%;
+    }
+
     .bg-water {
         background-image: url('/images/klever-studio6.jpg');
         background-size: cover; 
@@ -1210,6 +1226,13 @@ form .button {
     .sm-tall-50 {  min-height: 50vh;}
 
     .margin-10 {  margin: 0;}
+    .sm-padded  {
+      padding: 5%;
+  }
+
+  .sm-padded-t10  {
+    padding: 10%;
+}
 
     h1 { font-size: 2rem;}
     h2 { font-size: 1.4rem;}
@@ -1223,13 +1246,6 @@ form .button {
     .large-title {
       font-size: 2.5rem;}
 
-    .horizontal-scroll {
-        overflow-x: auto;
-        flex-wrap: nowrap;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 7%;
-      }
       .card img {
         margin-top: -25%;
       }
