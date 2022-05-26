@@ -51,6 +51,7 @@ body {
 .tall-50 { min-height: 50vh; }
 .tall-60 { min-height: 60vh; }
 .tall-70 { min-height: 70vh; }
+.tall-75 { min-height: 75vh; }
 .tall-80 { min-height: 80vh; }
 .tall-90 { min-height: 90vh; }
 .tall-100 { min-height: 100vh; }
@@ -133,6 +134,16 @@ body {
 .emphasis2 {
     font-size: 1.2rem;
     font-weight: 300;
+}
+
+.pinned-to-bottom {
+  font-size: 12vw;
+  position: absolute;
+  left: 1rem;
+  top: 2rem;
+  right: 1rem;
+  color: white;
+  text-align: center;
 }
 
 .upper { text-transform: uppercase;  }
@@ -228,6 +239,15 @@ a:hover { color: var(--accent); }
   font-weight: 400;
   color: #9d614c;
   border-radius: 0.5rem;
+}
+
+.button-b {
+  text-decoration: none;
+  border-bottom: 1px solid; 
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  font-weight: 400;
+  color: inherit;
 }
 
 .button:hover {
@@ -515,9 +535,31 @@ color: black
   color: #0f0f0f;
 }
 
-.mob-horizontal-scroll .bg-image {
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  background-color: #FFF;
+  background-repeat: no-repeat;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.horizontal-scroll .bg-image {
     position: relative;
-    padding-bottom: 160%;
+  }
+
+  .bg-image.fashion1 {
+    background-image: url('/images/klever-mock1.jpg');
+    padding-bottom: 150%;
+  }
+  .bg-image.fashion2 {
+    background-image: url('/images/klever-mock-main.png');
+    padding-bottom: 150%;
+  }
+  .bg-image.fashion3 {
+    background-image: url('/images/liliia-zolotukhina-webdesigner.jpg');
+    padding-bottom: 150%;
   }
 
   .hover-image.fashion,
@@ -724,13 +766,6 @@ hr.wide {
 
 /* Background Images */
 
-.bg-image {
-    background-color:rgb(240,240,240); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-}
-
 .profile-image {
     border-radius: 100%;
 }
@@ -765,10 +800,10 @@ hr.wide {
 }
 
 .bg-seno {
-    background-image: url('/images/zolotukhina-webdesign.jpg');
-    background-position: 53% 50%;
+    background-image: url('/images/klever-mock-main1.png');
+    background-position: 50% 50%;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 
@@ -1021,6 +1056,21 @@ form .button {
   .card img {
     margin-top: -2.5rem;
   }
+
+  .card2 {
+    padding-top: 1.5rem;
+    color: rgb(65,60,60);
+    border-radius: 5px;
+  }
+  
+  .card2:hover {
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.2),0 10px 10px -5px rgba(0,0,0,.2);
+  }
+  
+  .card2 h3 {
+    font-size: 1.6rem;
+  }
+  
  
   @media (min-width: 1850px) {
 .margin-b-m31 { margin-bottom: -31rem;}
