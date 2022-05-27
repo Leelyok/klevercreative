@@ -136,6 +136,8 @@ body {
     font-weight: 300;
 }
 
+.prata {  font-family: 'Prata', serif; }
+
 .pinned-to-bottom {
   font-size: 12vw;
   position: absolute;
@@ -1272,9 +1274,7 @@ form .button {
 
 @media(max-width: 36em) {
 
-    h1 { font-size: 1.3rem;}
-
-    h3 { font-size: 1.1rem;}
+    h1 { font-size: 1.7rem;}
 
     .bg-overlay1::before {
         content: ""; 
