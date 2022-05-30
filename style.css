@@ -47,6 +47,12 @@ body {
 
 }
 
+/* ---------- Negative Space Utility Classes  ------------------ */ 
+
+.capped-width-wide      { max-width: 1600px; margin: auto; }
+.capped-width           { max-width: 1200px; margin: auto; }
+.capped-width-narrow    { max-width: 1000px; margin: auto; }
+.capped-width-v-narrow  { max-width: 800px;  margin: auto; }
   
 .tall-50 { min-height: 50vh; }
 .tall-60 { min-height: 60vh; }
@@ -960,6 +966,87 @@ form .button {
    	padding: 0.5rem 2rem;
    	margin-top: 1rem;
 }
+
+/* ------------ Blogging elements  ----------------------- */
+
+
+
+/* Post Loop Item  */
+
+.post-item {
+  text-decoration: none;
+}
+
+
+/* Individual Elements */
+
+.tag {
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.5;
+  font-size: 0.8rem;
+  margin-right: 0.4rem;
+}
+
+.post-info {
+  font-size: 0.8rem;
+  color: var(--medium-text);
+}
+
+/* Individual Blog Post Pages  */
+
+.blog-content h1 {
+  font-family: 'Martel', serif; 
+  font-weight: 200;
+  font-size: 3rem;
+}
+
+.blog-content p {
+  line-height: 1.6;
+}
+
+.blog-content hr {
+  border: none;
+  border: 1px solid var(--medium);
+}
+
+
+/* Sidebar */
+.sidebar-item {
+  border: 2px solid var(--light);
+  margin-bottom: 1rem;
+  color: var(--medium-text);
+}
+.sidebar-item p {
+  font-family: 'Mulish', serif; 
+  font-weight: 300;
+}
+
+.recent-posts-nav a{
+  display: block;
+  font-weight: 300;
+}
+
+/* Social Share Nav  */
+
+.social-share a {
+  padding: 0.25rem 0.5rem;
+}
+
+/* Miscelaneous elements  */
+
+hr.short {
+  border: 1px solid var(--dark-text);
+  width: 2rem;
+  margin: 1rem 0;
+}
+
+hr.short.center {
+  margin:auto;
+  margin: 1rem auto;
+}
+
 
 /* Responsive Video */
 

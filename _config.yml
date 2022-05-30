@@ -1,6 +1,9 @@
 collections:
  projects:
    output: true
+ posts:
+    output: true
+    permalink: /posts/:year/:slug
 
 
 url: "the_sites_url_here.com"
