@@ -1,0 +1,72 @@
+---
+layout: default
+title: Блог Веб Дизайнера 
+seo:
+  title:
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+---
+
+<!------------------------ Split blog loop (part 1) ------------------------>
+<section class="padded">
+
+    <div class="capped-width grid-center">
+
+    <div class="col-9 padded-05 center margin-b-1">
+        <h2> NEBLOG </h2>
+        <p>Это не совсем блог:) Скорее дневник или заметки или напоминание о чем-то очень хорошем, теплом и несомненно нужном. Журналирование своих мыслей очень полезно, во-первых, сам процесс, а во-вторых, это возможность вернуться в себя прежнюю и сравнить с настоящей.</p>
+    </div>
+
+        {% for post in site.posts limit:3 %}
+
+            {% include post-loop-item-square.html %}
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+
+<!------------------------ CTA Banner  ------------------------>
+<section class="padded center capped-width"> 
+
+    <div class="capped-width-narrow">
+        <h2> Напиши мне </h2>
+        <p> Открыта к общению и сотрудничеству </p>
+        <a href="/enquiries" class="button"> контакты </a>
+    </div>
+
+</section> 
+
+
+<!------------------------ Split blog loop (part 2) ------------------------>
+<section class="padded">
+
+    <div class="capped-width grid-center">
+
+        {% for post in site.posts limit:12 offset:3 %}
+
+                {% include post-loop-item-square.html %}
+
+        {% endfor %}
+
+    </div>
+
+
+    <!-- This checks if there are more than 15 blog posts, and if there are shows a link to the full blog archive -->
+
+    {% assign post_count = site.posts | size %}
+    
+    {% if post_count > 15 %}
+        <div class="center padded">
+            <a class="button" href="/blog-archive"> See More </a>
+        </div>
+       
+    {% endif %}
+
+</section>
+

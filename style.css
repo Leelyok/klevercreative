@@ -556,6 +556,15 @@ color: black
   transition: opacity 1s;
 }
 
+/* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
+
+a.bg-image { display: block;}
+
+.landscape     { padding-bottom: 66% ; }
+.portrait-tall { padding-bottom: 175%; }
+.portrait      { padding-bottom: 125%; }
+.square        { padding-bottom: 100%; }
+
 .horizontal-scroll .bg-image {
     position: relative;
   }

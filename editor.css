@@ -15,7 +15,7 @@ img.one-third-image {
 img.one-half-image {
     display: inline-block;
     width: calc(50% - 1rem);
-    margin: 0.5rem;
+    margin: 0.3rem;
 }
 
 img.float-left-image {
