@@ -34,7 +34,9 @@ body {
     */
   }
 
-  
+  [class*="col"] {
+    padding: 0;
+  }
 
 .parking {
     background-image: url('/images/klever-studio1.jpg');
@@ -484,14 +486,6 @@ color: black
 
   /* BANNERS */
 
-  .banner,
-  .banner-with-header {
-    background-image: url('/images/adventure.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
-
   .banner .overlay {
     position: absolute;
     height: 100%;
@@ -569,43 +563,6 @@ a.bg-image { display: block;}
     position: relative;
   }
 
-  .bg-image.fashion1 {
-    background-image: url('/images/klever-mock1.jpg');
-    padding-bottom: 150%;
-  }
-  .bg-image.fashion2 {
-    background-image: url('/images/klever-mock-main.png');
-    padding-bottom: 150%;
-  }
-  .bg-image.fashion3 {
-    background-image: url('/images/remove-bg.png');
-    padding-bottom: 150%;
-  }
-
-  .hover-image.fashion,
-  .bg-image.fashion {
-    background-image:url('/images/klever-mock-pc.jpg');
-  }
-
-  .hover-image.lifestyle,
-  .bg-image.lifestyle {
-    background-image:url('/images/evd-mock.jpg');
-  }
-
-  .hover-image.product,
-  .bg-image.product {
-    background-image:url('/images/instinct-ipad2.jpg');
-  }
-
-  .hover-image.venue,
-  .bg-image.venue {
-    background-image:url('/images/ona-ipad.jpg');
-  }
-
-  .hover-image.food,
-  .bg-image.food {
-    background-image:url('/images/evd-mock-pc.jpg');
-  }
 
 /* Home Page Nav Links*/
 
@@ -622,6 +579,45 @@ nav.hover-links {
   font-size: 1rem;
   padding: 0.2rem;
 }
+
+    .bg-image.fashion1 {
+    background-image: url('/images/klever-mock1.jpg');
+    padding-bottom: 150%;
+  }
+  .bg-image.fashion2 {
+    background-image: url('/images/klever-mock-main.png');
+    padding-bottom: 150%;
+  }
+  .bg-image.fashion3 {
+    background-image: url('/images/remove-bg.png');
+    padding-bottom: 150%;
+  }
+
+  .hover-image.webdesign,
+  .bg-image.webdesign {
+    background-image:url('/images/klever-mock-pc.jpg');
+  }
+
+  .hover-image.lifestyle,
+  .bg-image.lifestyle {
+    background-image:url('/images/klever.jpg');
+  }
+
+  .hover-image.portfolio,
+  .bg-image.portfolio {
+    background-image:url('/images/klever-mock-main1.png');
+  }
+
+  .hover-image.identika,
+  .bg-image.identika {
+    background-image:url('/images/ona-ipad2.jpg');
+  }
+
+  .hover-image.seo,
+  .bg-image.seo {
+    background-image:url('/images/klever-studio2.jpg');
+  }
+  
 
 
 
