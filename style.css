@@ -904,6 +904,13 @@ hr.wide {
   padding-bottom: 70%;
 }
 
+.bg-ona1 {
+  background-image: url('/images/ona-ipad2.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
 .bg-ona2 {
   background-image: url('/images/ona-ipad3.jpg');
   background-size: cover; 
