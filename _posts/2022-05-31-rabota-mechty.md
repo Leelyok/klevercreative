@@ -9,8 +9,8 @@ categories:
   - web design
 featured_image: /images/klever-studio2.jpg
 seo:
-  title:
-  description:
+  title: Слайд-шоу не работают
+  description: Почему фото-карусель или слайд-шоу не работают?
   social_image:
   keywords:
   hide-from-google: false

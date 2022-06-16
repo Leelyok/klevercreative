@@ -11,8 +11,9 @@ categories:
     - web design
 featured_image: /images/belle.png
 seo:
-    title:
-    description:
+    title: Элегантные шрифты
+    description: Не обязательно быть веб дизайнером, чтобы интересоваться шрифтами. Подборка
+    стильных шрифтов.
     social_image:
     keywords:
     hide-from-google: false

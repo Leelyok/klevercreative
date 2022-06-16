@@ -10,8 +10,8 @@ categories:
   - digital
 featured_image: /images/ceramics-mugs-1.jpg
 seo:
-  title:
-  description:
+  title: Проект EPIC MUG
+  description: Тактильные и уникальные керамические кружки ручной работы
   social_image:
   keywords:
   hide-from-google: false
