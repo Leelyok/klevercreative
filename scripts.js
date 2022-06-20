@@ -47,6 +47,51 @@ $(".burger-menu").click(function(){
 
 }); // End document ready
 
+  // TESTIMONIALS //
+
+  $('.slider-container').slick({
+    // Setting name: setting-value
+  });
+  
+  
+  $('.testimon-slider-container').slick({
+    autoplay: true,        // Do we want it to autoplay? true or false
+    autoplaySpeed: 3000,   // How long between each slide when autoplaying
+    speed: 500,            // How fast is the transition 
+    arrows: false,          // Do you want to show arrows to trigger each slide
+    accessibility: true,   // Enables tabbing and arrow key navigation 
+    dots: true,            // Enables the dots below to show how many slides
+    fade: false,           // Changes the animate from slide to fade if true
+    infinite: true,       // When true, means that it will scroll in a circle
+    pauseOnHover: true,   // When true means the autoplay pauses when hovering
+    pauseOnDotsHover: true // Pauses the autoplay when hovering over the dots
+  });
+  
+  $(".testimonial-slider-container").slick({
+      autoplay: false,
+      autoplaySpeed: 2e3,
+      speed: 500,
+      arrows: false,
+      accessibility: true,
+      dots: true,
+      fade: false,
+      infinite: false,
+      pauseOnHover: false,
+      pauseOnDotsHover: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      responsive: [{
+          breakpoint: 768,
+          settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+          }
+      }]
+  });
+
+
 //LightGallery PopUp
 
 lightGallery(document.getElementById('lightgallery'), {
@@ -59,6 +104,7 @@ lightGallery(document.getElementById('lightgallery-2'), {
     download: false
 });
 
+
 //Typed sentences for us//
 var typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
@@ -70,9 +116,6 @@ var typed = new Typed('#typed', {
     
     showCursor: false
   });
-
-
-  // PORTFOLIO SECTION  //
 
 
 //  Image Lazy loading
@@ -175,41 +218,3 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("orientationChange", lazyload);
   }
 })
-
-
-$('.testimon-slider-container').slick({
-  autoplay: true,        // Do we want it to autoplay? true or false
-	autoplaySpeed: 3000,   // How long between each slide when autoplaying
-	speed: 500,            // How fast is the transition 
-  arrows: false,          // Do you want to show arrows to trigger each slide
-  accessibility: true,   // Enables tabbing and arrow key navigation 
-  dots: true,            // Enables the dots below to show how many slides
-  fade: false,           // Changes the animate from slide to fade if true
-  infinite: true,       // When true, means that it will scroll in a circle
-  pauseOnHover: true,   // When true means the autoplay pauses when hovering
-  pauseOnDotsHover: true // Pauses the autoplay when hovering over the dots
-});
-
-$(".testimonial-slider-container").slick({
-    autoplay: true,
-    autoplaySpeed: 2e3,
-    speed: 500,
-    arrows: true,
-    accessibility: true,
-    dots: true,
-    fade: false,
-    infinite: false,
-    pauseOnHover: false,
-    pauseOnDotsHover: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [{
-        breakpoint: 768,
-        settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-            dots: true
-        }
-    }]
-});

@@ -945,83 +945,6 @@ hr.wide {
     margin-left: 1rem;
 }
 
- /* text slider*/
-
- .author {
-  font-size: 0.9rem;
-  color: rgb(90,90,90);
-  margin-top: 0.5rem;
-  font-style: italic;
-  text-align: right;
-}
-
-
-.quote-icon {
-  font-size: 4rem;
-  color: rgb(200,200,200);
-}
-
-
-/* Slider */
-.testimonial-slider-container {
-  padding: 5%;
-  max-width: 1390px;
-  margin: auto;
-}
-
-.slider-item {
-  padding: 1rem;
-  display: none;
-}
-
-.slider-item:first-child {
-  display: block;
-}
-
-.slick-next {
-  right: 10px;
-}
-
-.slick-prev {
-  left: 10px;
-}
-
-.slick-next::before, .slick-prev::before {
-    font-family: inherit;
-    font-size: 20px;
-    line-height: 1;
-    opacity: .75;
-    color: rgb(90,90,90);
-}
-
-.slick-dots {
-  left: 0;
-  bottom: 10px;
-  /*  Without this the padding on the parent affects the centering of the dots. Do not delete.    */
-}
-
-.slick-dots li,
-.slick-dots li button {
-  width: 10px;
-}
-
-.slick-dots li button::before {
-  color: rgb(90,90,90);
-}
-
-.slick-dots li.slick-active button::before {
-  color: rgb(90,90,90);
-}
-
-
-/* Slider Text Styles  */
-
-.slider-item p {
-  text-align: center;
-  font-family: 'Source Serif Pro', serif;
-  font-size: 1.5rem;
-}
-
 /* Contact Form */
 form input,
 form textarea {
@@ -1245,9 +1168,90 @@ hr.short.center {
     display: block;
    }
 
-   /* Card Styles  */
+ /* text slider*/
+
+ .author {
+  font-size: 0.9rem;
+  color: rgb(90,90,90);
+  margin-top: 0.5rem;
+  font-style: italic;
+  text-align: right;
+}
 
 
+.quote-icon {
+  font-size: 4rem;
+  color: rgb(200,200,200);
+}
+
+.quote {
+  object-fit: contain;
+  object-position: center;
+  height: 10vh;
+  margin-bottom: -5rem;
+}
+
+
+/* Slider */
+.testimonial-slider-container {
+  padding: 5%;
+  max-width: 1390px;
+  margin: auto;
+}
+
+.slider-item {
+  padding: 1rem;
+  display: none;
+}
+
+.slider-item:first-child {
+  display: block;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next::before, .slick-prev::before {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(90,90,90);
+}
+
+.slick-dots {
+  left: 0;
+  bottom: 10px;
+  /*  Without this the padding on the parent affects the centering of the dots. Do not delete.    */
+}
+
+.slick-dots li,
+.slick-dots li button {
+  width: 10px;
+}
+
+.slick-dots li button::before {
+  color: rgb(90,90,90);
+}
+
+.slick-dots li.slick-active button::before {
+  color: rgb(90,90,90);
+}
+
+
+/* Slider Text Styles  */
+
+.slider-item p {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+ /* Card Styles  */
 .card {
     padding-top: 1.5rem;
     color: white;
@@ -1385,6 +1389,8 @@ hr.short.center {
      .bg-ona {   min-height: 50vh;   }
      .bg-ona2 {   min-height: 50vh;   }
      .bg-liliia {   min-height: 40vh;    }
+
+     .slider-item p { font-size: 1.3rem;}
   }
 
 /* SM - max-width in pixels approximately 768px */
@@ -1453,11 +1459,14 @@ hr.short.center {
     }
 
     .mob-left {  text-align: left;  }
+
+    .slider-item p { font-size: 1.1rem;}
 }
 
 @media(max-width: 36em) {
 
     h1 { font-size: 1.7rem;}
+    .slider-item p { font-size: 1rem;}
 
     .bg-overlay1::before {
         content: ""; 
