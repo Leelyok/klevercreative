@@ -71,7 +71,7 @@ $(".burger-menu").click(function(){
       autoplay: false,
       autoplaySpeed: 2e3,
       speed: 500,
-      arrows: false,
+      arrows: true,
       accessibility: true,
       dots: true,
       fade: false,
