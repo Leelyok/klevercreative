@@ -239,7 +239,7 @@ a:hover { color: var(--accent); }
 .border30  { border: 30px solid #f7f4ef;}
 
 .border-left {
-    border-left: 2px solid #000;
+    border-left: 1px solid #000;
   }
 
 .block    { display: block;}
@@ -1111,8 +1111,7 @@ hr.short.center {
     text-align: center;
     /*font-family: grandslang-roman,sans-serif;*/
     text-transform: lowercase;
-    color: #fff;
-    background-color: #282829;
+    color: #000;
     font-weight: 300;
     font-size: 1.3rem;
     letter-spacing: .2rem;
