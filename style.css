@@ -1391,6 +1391,10 @@ hr.short.center {
      .bg-liliia {   min-height: 40vh;    }
 
      .slider-item p { font-size: 1.3rem;}
+     .quote {
+      height: 8vh;
+      margin-bottom: -3rem;
+    }
   }
 
 /* SM - max-width in pixels approximately 768px */
@@ -1461,6 +1465,10 @@ hr.short.center {
     .mob-left {  text-align: left;  }
 
     .slider-item p { font-size: 1.1rem;}
+    .quote {
+      height: 6vh;
+      margin-bottom: -1rem;
+    }
 }
 
 @media(max-width: 36em) {
@@ -1476,6 +1484,11 @@ hr.short.center {
         bottom: 5rem;
         right: 3rem;
         background-color: rgba(13, 60, 80, 0.9);
+      }
+
+      .quote {
+        height: 6vh;
+        margin-bottom: -1rem;
       }
    
 }
