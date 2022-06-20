@@ -170,7 +170,7 @@ portfolio:
             <div class="col-12 left bg-light">
                 <h3 class="margin-t1 margin-b1 upper md-padded-t"> {{item.heading}} </h3>
             </div>
-            <div class="col-12 grid border-all">
+            <a class="col-12 grid border-all" href="{{item.link}}">
                 <div class="col-12 relavive hover-container" style="background-image:url('{{item.image}}')">
                     <div class="col-12 hover-overlay">
                       <div class="col-12-middle left hover-inner center">
@@ -179,14 +179,12 @@ portfolio:
                     </div>
                   </div>
                   <div class="col-8 padded-1p flex-display bg-light">
-                      <h4>
-                          <a class="text-lg" href="{{item.link}}"> Подробнее</a>
-                      </h4>
+                      <h4 class="text-lg">Подробнее </h4>
                   </div>
                   <div class="col-4 flex-display bg-light">
                       <p class="large-title"> + </p>
                   </div>
-            </div>
+            </a>
         </div>
         {% endfor %}
 
