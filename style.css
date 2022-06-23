@@ -166,16 +166,6 @@ body {
     font-weight: 700;
 }
 
-.capped-width {
-    max-width: 1000px;
-    margin: auto;
-}
-
-.capped-width-narrow {
-    max-width: 900px;
-    margin: auto;
-}
-
 .flex-flip-alternate:nth-child(even) {
     flex-direction: row-reverse;
 }
@@ -854,7 +844,7 @@ hr.wide {
 
 
 .bg-instinct {
-    background-image: url('/images/inst-mock1.jpg');
+    background-image: url('/images/inst-mock.png');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -862,7 +852,7 @@ hr.wide {
 }
 
 .bg-instinct1 {
-    background-image: url('/images/about-instinct1.png');
+    background-image: url('/images/instinct-ipad.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -870,8 +860,11 @@ hr.wide {
 }
 
 .bg-instinct2 {
-    background-image: url('/images/inst-mock.png');
+    background-image: url('/images/instinct-mock11.jpg');
+    background-size: cover; 
     background-position: center; 
+    background-repeat: no-repeat;
+    min-height: 90vh;
 }
 
 .bg-instinct3 {
