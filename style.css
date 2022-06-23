@@ -55,7 +55,7 @@ body {
 /* ---------- Negative Space Utility Classes  ------------------ */ 
 
 .capped-width-wide      { max-width: 1600px; margin: auto; }
-.capped-width           { max-width: 1200px; margin: auto; }
+.capped-width           { max-width: 1100px; margin: auto; }
 .capped-width-narrow    { max-width: 1000px; margin: auto; }
 .capped-width-v-narrow  { max-width: 800px;  margin: auto; }
   
