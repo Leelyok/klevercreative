@@ -271,6 +271,7 @@ a:hover { color: var(--accent); }
 .text-bold  { font-weight: 600;}
 .text-lg {   font-size: 18pt;}
 .text-sm {   font-size: 0.6rem;}
+.text-12 {  font-size: 12pt; }
 
 .right-arrow {
     max-width: 2rem;
