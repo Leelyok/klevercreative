@@ -89,6 +89,12 @@ body {
 
 .padded-r12  { padding-right: 12%;   }
 
+.padded-ntb {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .padded-0 { padding: 0; }
 .padded-b-0 { padding-bottom: 0; }
 .padded-t-0 { padding-top: 0; }
